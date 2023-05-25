@@ -38,11 +38,11 @@ export default function TextForm(props) {
                 <div className="form-group mb-3 mt-2">
                     <textarea className="form-control" id="mybox" rows="8" value={text} onChange={handleOnChange}></textarea>
                 </div>
-                <button className='btn btn-primary mx-2' onClick={handleUpClick}>Convert to Uppercase</button>
-                <button className='btn btn-primary mx-2' onClick={handleLoClick}>Convert to LowerCase</button>
-                <button className='btn btn-primary mx-2' onClick={handleClearClick}>Clear text</button>
-                <button className='btn btn-primary mx-2' onClick={handleCopy}>Copy text</button>
-                <button className='btn btn-primary mx-2' onClick={handoleExtraSpaces}>Remove extra spaces</button>
+                <button className='btn btn-primary mx-1 my-1' onClick={handleUpClick}>Convert to Uppercase</button>
+                <button className='btn btn-primary mx-1 my-1' onClick={handleLoClick}>Convert to LowerCase</button>
+                <button className='btn btn-primary mx-1 my-1' onClick={handleClearClick}>Clear text</button>
+                <button className='btn btn-primary mx-1 my-1' onClick={handleCopy}>Copy text</button>
+                <button className='btn btn-primary mx-1 my-1' onClick={handoleExtraSpaces}>Remove extra spaces</button>
             </div>
             <div className='container my-3'>
                 <h3 className={`text-${props.mode === 'dark' ? 'light' : 'dark'}`}>Your text summary</h3>
